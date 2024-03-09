@@ -9,6 +9,16 @@ const Index = () => {
     <Container maxW="container.xl" p={8}>
       <VStack spacing={10}>
         <Flex direction="column" align="center" my={10}>
+          <Text fontSize="lg" color={textColor} mb={6}>
+            👋 By day, I'm the Marketing Manager at Airthings for Business, always pondering how IoT, software, and sensors can simplify and optimize our building operations. Passionate about enhancing the everyday life of building occupants, I'm on a mission to ensure the right data reaches the right people in an understandable format.
+            <br />
+            Previously a software developer in the fintech industry, I've witnessed a sector's transformation thanks to digitalization, open data, and newcomers. I've also disrupted customer services across various industries with my startup, Sorry as a Service, recognized by Forbes with a "Forbes 30 Under 30" inclusion in 2017.
+            <br />
+            Overall, a cheerful person from Drammen with Irish roots.{" "}
+            <Link href="https://www.linkedin.com/in/martinmcgloin" color="teal.500" isExternal>
+              Connect with me on LinkedIn.
+            </Link>
+          </Text>
           <Heading as="h1" size="2xl" fontWeight="bold" mb={2}>
             Martin McGloin
           </Heading>
